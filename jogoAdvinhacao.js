@@ -31,7 +31,6 @@ function jogarAdivinhacao() {
 
     tentativas++;
 
-    // Verifica o palpite
     if (palpite > numeroSecreto) {
       console.log('Menor! Tente novamente.\n');
     } else if (palpite < numeroSecreto) {
